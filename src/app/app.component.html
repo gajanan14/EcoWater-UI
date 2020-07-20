@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<div style="text-align:center" class="header-shadow">
+    <h1 class="header-title">
+        EcoWater - PeyJal
+    </h1>
+</div>
+
+<div>
+    <table border="1" width="100%" height="85%">
+        <tr>
+            <td width="20%" align="left" valign="top">
+               <table>
+                    <tr>
+                            <td><a [routerLink]="['./']">Home</a></td>                                                
+                    </tr>
+                    <tr>
+                            <td><a [routerLink]="['./registration']">Client Registration</a></td>                                                
+                    </tr>
+                    <tr>
+                            <td><a [routerLink]="['./admin']">Admin</a></td>
+                    </tr>    
+                </table>
+            </td>
+            <td width="70%" ><router-outlet></router-outlet></td>
+        </tr>       
+    </table>
+</div>
+<div class="footer-shadow">
+    <table border="1" width="100%">
+        <tr>
+            <td width="100%" >
+            <h1 class="footer-title">Copyright @ 2020 Ecowater-Peyjal. All rights reserved</h1>
+            </td>
+        </tr>
+    </table>
+</div>
