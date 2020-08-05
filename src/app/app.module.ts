@@ -9,13 +9,19 @@ import { AdminComponent } from './components/admin/admin.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { ViewRegistrationComponent } from './components/view-registration/view-registration.component';
+import { ProductsComponent } from './components/products/products.component';
+import { GallaryComponent } from './components/gallary/gallary.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminComponent,
     HomeComponent,
-    ViewRegistrationComponent
+    ViewRegistrationComponent,
+    ProductsComponent,
+    GallaryComponent,
+    ContactComponent
   ],
   imports: [
     AppRoutingModule,
